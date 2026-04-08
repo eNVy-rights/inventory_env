@@ -1,3 +1,12 @@
+---
+title: Inventory Replenishment Environment
+emoji: 📦
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+---
+
 # Inventory Replenishment — OpenEnv Hackathon Submission
 
 > **Meta × Scaler OpenEnv Hackathon** | Supply Chain Inventory Replenishment
