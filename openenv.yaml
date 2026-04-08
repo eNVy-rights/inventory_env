@@ -1,0 +1,7 @@
+name: inventory-env
+version: 1.0.0
+description: >
+  Retail warehouse inventory replenishment RL environment.
+  An agent decides daily reorder quantities per SKU to minimise
+  holding costs and stockouts across three difficulty tiers
+  (easy, medium, hard).

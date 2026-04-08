@@ -1,0 +1,25 @@
+[project]
+name = "inventory-env"
+version = "1.0.0"
+description = "Supply-chain inventory replenishment OpenEnv environment"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pydantic>=2.0",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "httpx",
+    "websockets",
+    "openai",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio", "httpx"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["inventory_env*"]

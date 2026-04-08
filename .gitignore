@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+share/
+*.cfg
+.gemini/
